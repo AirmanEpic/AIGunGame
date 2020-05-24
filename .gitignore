@@ -1,0 +1,14 @@
+/node_modules/*
+*.zip
+Tactics
+your_code_oldvers.js
+your_code_v3.js
+your_code_working.js
+package_unrendered.js
+enemy_code_hardest.js
+enemy_code_harder.js
+enemy_code_currentStandard.js
+Airman_yourcode_24_may.js
+Airman_yourcode_23_may.js
+AI GG.sublime-project
+AI GG.sublime-workspace

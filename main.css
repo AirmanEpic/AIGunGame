@@ -1,0 +1,35 @@
+@font-face{
+	font-family:"RobotoSlab";
+	src: url("RobotoSlab-VariableFont_wght.ttf");
+}
+
+body{
+	margin:0px;
+	display:flex;
+}
+
+.button{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	padding:10px;
+	width:300px;
+	border:1px solid gray;
+	border-radius:4px;
+	margin-bottom:10px;
+}
+.button:last-child{
+	margin-bottom:0px;
+}
+
+.button p{
+	font-family:"RobotoSlab";
+}
+
+.button.selected{
+	box-shadow:inset 0px 0px 10px rgba(255,0,0,.2);
+}
+
+.button.selected-random{
+	box-shadow:inset 0px 0px 10px rgba(0,255,0,.4);
+}
